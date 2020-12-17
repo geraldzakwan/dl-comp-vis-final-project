@@ -17,7 +17,7 @@ Before running the notebook, prepare the dataset using the following way:
 your desired data path in drive.
 
 3. If you run it locally, change the path (after the `-r` option) into
-your desired local data path. Obviusly, you can also place directly
+your desired local data path. Obviously, you can also place directly
 the dataset under the `data` directory and skip/comment the `cp` command.
 
 4. Make sure that `data` directory has the same parent directory to
