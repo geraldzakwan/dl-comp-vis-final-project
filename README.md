@@ -40,9 +40,24 @@ data
       uris
 ```
 
-## Trying Interactive Demo
+## Trying Interactive Demo using Tensorflow.js
 
 You can try an interactive demo of this image classification app by
 visiting the below link.
 
 `https://dl-for-comp-vis-final-proj.herokuapp.com`
+
+Alternatively, if the above link doesn't work, you could run it locally by
+doing the following steps:
+
+1. Get into the `tfjs_model` directory.
+
+`cd tfjs_model`
+
+2. Run the static web app using Python HTTP Server. Below example is using
+port $8282$.
+
+`python3 -m http.server 8282`
+
+3. Visit the app by entering the URL: `localhost:8282` in your browser,
+preferably Google Chrome, because that's where I tested the app.
