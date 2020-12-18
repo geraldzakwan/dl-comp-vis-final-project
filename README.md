@@ -55,7 +55,7 @@ doing the following steps:
 `cd tfjs_model`
 
 2. Run the static web app using Python HTTP Server. Below example is using
-port $8282$.
+port `8282`.
 
 `python3 -m http.server 8282`
 
